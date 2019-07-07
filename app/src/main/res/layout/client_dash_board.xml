@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin_25"
+        android:layout_marginStart="@dimen/margin_25"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.04" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_weight="0.3"
+            android:background="@drawable/logo_splash_screen"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:id="@+id/my_issue"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:background="@drawable/button_bg"
+            android:text="@string/my_issue"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_25"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/find_shrink"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:background="@drawable/button_bg"
+            android:text="@string/find_shrink"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_25"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/messages"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:background="@drawable/button_bg"
+            android:text="@string/messages"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_25"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/peer_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:background="@drawable/button_bg"
+            android:text="@string/peer_group"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_25"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:background="@drawable/button_bg"
+            android:text="@string/settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_25"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:text="@string/contact_us"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+
+    </LinearLayout>
+</LinearLayout>

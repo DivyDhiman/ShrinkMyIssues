@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">Shrink My Issues</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="termscondition">Terms &amp; Conditions</string>
+    <string name="powerby">&#169; Shrink My Issues,2016</string>
+    <string name="or">OR</string>
+    <string name="welcome_home">Welcome Home</string>
+    <string name="Pleasewait">Please wait &#8230;</string>
+    <string name="enter_username">Please enter user name</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="enable_internet">Please enable your internet</string>
+    <string name="enter_personal_data">Please enter your personal data</string>
+    <string name="name_f_l">Name (First and Last)</string>
+    <string name="practice_address">Practice address</string>
+    <string name="type_speciality">Type of speciality</string>
+    <string name="register_intern_coach">I\'m a registered intern, recovery coach or life coach</string>
+    <string name="license_number">License number</string>
+    <string name="license_or_certification">License or certification</string>
+    <string name="license_issuance">License issuance:MM/YY</string>
+    <string name="upload_copies">Upload copies</string>
+    <string name="license">License</string>
+    <string name="license_insurance">License insurance</string>
+    <string name="upload_photo_yourself">Upload photo of yourself</string>
+    <string name="my_photo">My photo</string>
+    <string name="next_step">Next step</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="license_certification">License Certification</string>
+    <string name="supervisor_license">Supervisor License</string>
+    <string name="upload_letter">Upload letter for:</string>
+    <string name="proof_supervision">Proof of supervision</string>
+    <string name="identify_areas">Identify the areas in which you are specialize</string>
+    <string name="click_all">( click all that apply ):</string>
+    <string name="back">Back</string>
+    <string name="age_specialities">Age Specialities</string>
+    <string name="session_formats">Session formats</string>
+    <string name="treatment_approaches">Treatment Approaches</string>
+    <string name="additional_languages">Additional languages spoken</string>
+    <string name="type_here">Type here &#8230;</string>
+    <string name="insurance_plan_accepted">Insurance plan accepted</string>
+    <string name="select">Select</string>
+    <string name="select_membership_plan">Select a membership plan</string>
+    <string name="finish">Finish</string>
+    <string name="gender">Gender</string>
+    <string name="agree_terms_conditions">I Agree to </string>
+    <string name="and"> and </string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email">Email</string>
+    <string name="confirm_email">Confirm email</string>
+    <string name="please_enter_registration_info">Please enter your registration information</string>
+    <string name="select_type">Select the type of user you want to register:</string>
+    <string name="register_client">you want to register as a</string>
+    <string name="type_client">client</string>
+    <string name="shrink_your_issues">to shrink your issues</string>
+    <string name="register_pro">you want to help and be a</string>
+    <string name="type_pro">pro</string>
+    <string name="shrink_other_issues">to shrink other issues</string>
+    <string name="please_enter_personal_info">Please enter your personal information</string>
+    <string name="address">Select your address</string>
+    <string name="please_enter_card_info">Please enter your credit card information</string>
+    <string name="name_card">Name on card</string>
+    <string name="card_number">Card number</string>
+    <string name="mm">MM/YY</string>
+    <string name="cvv">CVV2/CVC2</string>
+    <string name="confirm">Confirm</string>
+    <string name="client">Client</string>
+    <string name="pro">Pro</string>
+    <string name="empty_username">Please enter your username</string>
+    <string name="empty_password">Please enter your password</string>
+    <string name="empty_confirm_password">Please confirm your password</string>
+    <string name="empty_email">Please enter your email id</string>
+    <string name="empty_confirm_email">Please confirm your email</string>
+    <string name="valid_email">Please enter valid email id</string>
+    <string name="password_length">Password length must be in between 6 to 20</string>
+    <string name="matches_email">Email and confirm email are not match</string>
+    <string name="matches_password">Password and confirm password are not match</string>
+    <string name="select_gender">Select your gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="enter_name">Please enter your first and last name</string>
+    <string name="empty_address">Please select address</string>
+    <string name="empty_gender">Please select gender</string>
+    <string name="empty_terms_condition">Please agree with terms and conditions</string>
+    <string name="forgot_password">Forgot Password !</string>
+    <string name="empty_plan">Please select your membership plan</string>
+    <string name="empty_card_holder_name">Please enter card holder name</string>
+    <string name="empty_card_number">Please enter your card number</string>
+    <string name="empty_month_year">Please select card expiry date</string>
+    <string name="empty_card_cvv">Please enter your card cvv2 or cvc2 number</string>
+    <string name="invalid_card_number">Card number should be between 15 to 16 number</string>
+    <string name="invalid_cvv">Card cvv2 or cvc2 should be between 3 to 5 number</string>
+    <string name="my_issue">My Issues</string>
+    <string name="find_shrink">Find A Shrink</string>
+    <string name="messages">Messages</string>
+    <string name="peer_group">Peer Group</string>
+    <string name="settings">Settings</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="please_grant_permission">Please grant permission of location uses</string>
+    <string name="register_email_id">Please enter your register email id</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="ok">Ok</string>
+    <string name="password_reset_steps">Please check your email for password reset steps</string>
+    <string name="save">Save</string>
+    <string name="missing_address">Seems like address are missing in google map , please name the address</string>
+    <string name="profile_pic_upload">Upload your profile image</string>
+    <string name="empty_speciality">Please select speciality type</string>
+    <string name="empty_license_certification_number">Please enter license certification number</string>
+    <string name="empty_license_number">Please enter license number</string>
+    <string name="empty_license_month_year">Please select license month and year</string>
+    <string name="empty_license_image">Please upload license image</string>
+    <string name="empty_license_insurance_image">Please upload license insurance image</string>
+    <string name="empty_license_or_certification">Please enter license or certification number</string>
+    <string name="empty_supervisor_license">Please enter supervisor license number</string>
+    <string name="empty_supervision_proof_img">Please upload supervision proof image</string>
+    <string name="demographic_expertise">Demographic expertise</string>
+    <string name="empty_specialise_list">Please chose specialise are from list</string>
+    <string name="empty_area_list">Please chose area of specialise from list</string>
+    <string name="empty_session_list">Please chose session of specialisefrom list</string>
+    <string name="empty_treatment_list">Please chose treatment of specialise from list</string>
+    <string name="empty_demographic_list">Please chose demographic expertise from list</string>
+    <string name="empty_insurance_plan">Please select insurance plan</string>
+
+    <string-array name="speciality_list">
+        <item>academic</item>
+        <item>underachievement</item>
+        <item>addiction</item>
+        <item>adoption</item>
+        <item>alcohol abuse</item>
+        <item>alzheimer</item>
+        <item>anger management</item>
+        <item>antisocial personality</item>
+        <item>anxiety</item>
+        <item>ospreger\'s syndrome</item>
+        <item>ADHD</item>
+        <item>autiam</item>
+        <item>behavioral issues</item>
+        <item>borderline personality</item>
+        <item>carrer counseling</item>
+        <item>child or adolescent</item>
+        <item>co-dependency</item>
+        <item>chronic impulsively</item>
+        <item>chronic pain or illness</item>
+        <item>chronic relapse</item>
+        <item>coping skills</item>
+        <item>depression</item>
+        <item>development disorder</item>
+        <item>divorce</item>
+        <item>domestic abuse</item>
+        <item>domestic violence</item>
+        <item>drug abuse</item>
+        <item>dual diagnosis</item>
+        <item>eating disorder</item>
+        <item>emotional disturbance</item>
+        <item>entitlement</item>
+        <item>family conflict</item>
+        <item>gambling</item>
+        <item>infertility</item>
+        <item>internet addiction</item>
+        <item>learning disability</item>
+        <item>life coaching</item>
+        <item>loss or grief</item>
+        <item>medical detox</item>
+        <item>medication management</item>
+        <item>mental retardation</item>
+        <item>narcissistic personality</item>
+        <item>obesity</item>
+        <item>OCD</item>
+        <item>oppositional defiance</item>
+        <item>parenting issues</item>
+        <item>peer relationships</item>
+        <item>relationship issues</item>
+        <item>self esteem</item>
+        <item>self harm</item>
+        <item>sex therapy</item>
+        <item>sexual abuse</item>
+        <item>sexual addiction</item>
+        <item>sleep or insomnia</item>
+        <item>spirituality</item>
+        <item>substance abuse</item>
+        <item>suicidal ideation</item>
+        <item>severe and persistent</item>
+        <item>mental illness</item>
+        <item>teen violence</item>
+        <item>testing and evaluation</item>
+        <item>trauma and PTSD</item>
+        <item>Traumatic Brain injury</item>
+        <item>video game addicition</item>
+        <item>weight loss</item>
+    </string-array>
+
+    <string-array name="area_speciality_list">
+        <item>Children</item>
+        <item>Adolescents</item>
+        <item>Adults</item>
+        <item>Edlers</item>
+    </string-array>
+
+    <string-array name="session_formats_list">
+        <item>Individual</item>
+        <item>Couples</item>
+        <item>Family</item>
+        <item>Group</item>
+    </string-array>
+
+    <string-array name="treatment_approaches_list">
+        <item>Adlerian</item>
+        <item>Art Therapy</item>
+        <item>coaching</item>
+        <item>cognitive behavioral therapy</item>
+        <item>DBT</item>
+        <item>EMDR</item>
+        <item>Eclectic</item>
+        <item>Existential</item>
+        <item>Family Systems Therapy</item>
+        <item>Family / Marital Therapy</item>
+        <item>Forensic Psychology</item>
+        <item>Gestalt</item>
+        <item>Humanistic</item>
+        <item>Hypnotherapy</item>
+        <item>Interpersonal</item>
+        <item>Intervention</item>
+        <item>Multicultural</item>
+        <item>play therapy</item>
+        <item>psychoanalytic</item>
+        <item>psychodynamic</item>
+        <item>Psychological testing and evaluation</item>
+        <item>relational therapy</item>
+        <item>solution focused</item>
+        <item>transpersonal</item>
+    </string-array>
+
+    <string-array name="demographic_expertise_list">
+        <item>African American</item>
+        <item>asian american</item>
+        <item>buddhist</item>
+        <item>christian</item>
+        <item>LGBT</item>
+        <item>hindu</item>
+        <item>jewish</item>
+        <item>latino american</item>
+        <item>Latter-day saints / mormon</item>
+        <item>middle eastern</item>
+        <item>military veterans</item>
+        <item>muslim</item>
+        <item>native america</item>
+        <item>pacific islander</item>
+        <item>people with disabilities</item>
+        <item>women / feminists</item>
+        <item>men\'s issues</item>
+    </string-array>
+
+    <string-array name="type_of_speciality">
+        <item>Type of speciality</item>
+        <item>Trauma centers</item>
+        <item>Burn centers</item>
+        <item>Cardiac centers</item>
+        <item>Pediatric centers</item>
+        <item>Stroke centers</item>
+    </string-array>
+
+    <string-array name="client_member_ship_plan">
+        <item>Select a membership plan</item>
+        <item>10 questions for $24.99</item>
+        <item>15 questions for $34.99</item>
+        <item>20 questions for $44.99</item>
+    </string-array>
+
+    <string-array name="pro_member_ship_plan">
+        <item>Select a membership plan</item>
+        <item>Monthly $19.95</item>
+        <item>1 Year $149.95</item>
+        <item>2 Year $179.95</item>
+        <item>3 Year $249.95</item>
+    </string-array>
+
+    <string-array name="select_gender">
+        <item>Select your gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="select_insurance_plan">
+        <item>Select</item>
+        <item>blue cross</item>
+        <item>blue shield</item>
+        <item>cigna</item>
+        <item>united health care</item>
+        <item>aetna</item>
+        <item>humana</item>
+        <item>tricare</item>
+        <item>medicare</item>
+        <item>medicaid</item>
+        <item>private self pay</item>
+    </string-array>
+
+    <string-array name="peer_support_group">
+        <item>DEPRESSION</item>
+        <item>ADDITION</item>
+        <item>TRAUMA</item>
+        <item>MATERIAL ISSUES</item>
+        <item>PARENTING ISSUES</item>
+        <item>LGBT</item>
+        <item>RELATIONSHIP ISSUES</item>
+        <item>Phase of Life Issues</item>
+        <item>College Students</item>
+        <item>Grief and Loss</item>
+    </string-array>
+
+
+    <string-array name="problem_issue_select">
+        <item>Select problem or issue</item>
+        <item>Login related problem</item>
+        <item>Package related problem</item>
+        <item>Payment related problem</item>
+        <item>Professional related problem</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="problem_cue">Problem Cue</string>
+    <string name="professional_corner">Professional Corner</string>
+    <string name="professional">Professional</string>
+    <string name="past_issues">Past issues</string>
+    <string name="current_issues">Current issues</string>
+    <string name="submit_issue">Submit Issue</string>
+    <string name="peer_support_group">Peer Support Group</string>
+    <string name="find_a_shrink">Find a Shrink</string>
+    <string name="title">Title</string>
+    <string name="select_problem_issue">Select problem or issue</string>
+    <string name="message">Message (optional) &#8230;</string>
+    <string name="write_problem">Write problem or issue</string>
+    <string name="send">send</string>
+    <string name="send_successfully_contact">Thanks for sending us your query will get in touch soon</string>
+    <string name="do_you_want">Do you want to send another problem or issue</string>
+    <string name="click_here">Click here</string>
+    <string name="go_back">Or go back to previous page</string>
+    <string name="empty_title">Please enter title</string>
+    <string name="empty_problem_issue">Please select problem or issue</string>
+    <string name="others">Others</string>
+    <string name="empty_problem_issue_heading">Please enter issue or problem</string>
+    <string name="message_client">Message Client</string>
+    <string name="respond">Respond</string>
+    <string name="post_message">Post Message</string>
+    <string name="profile_menu">Profile</string>
+    <string name="messages_menu">Messages</string>
+    <string name="rate_us_menu">Rate Us</string>
+    <string name="contact_us_menu">Contact Us</string>
+    <string name="logout_menu">Logout</string>
+
+    <string name="oops_error_occur">Oops error occur ! Please try after sometimes</string>
+    <string name="type_location_search">Location Search</string>
+    <string name="server_key">AIzaSyD2kdugukhu2noukkdzvIWDlcO5blO4HJQ</string>
+
+    <string name="terms_conditions_points">Following are terms and conditions</string>
+    <string name="privacy_policy_points">Following are privacy policy</string>
+    <string name="update_soon">Working on it soon will update</string>
+    <string name="gps_enable">GPS Enable !</string>
+    <string name="location_near_you">Please enable your GPS if you are near your address or you can add location manually by searching location on search bar</string>
+
+</resources>

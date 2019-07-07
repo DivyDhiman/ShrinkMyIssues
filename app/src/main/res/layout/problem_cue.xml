@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/my_issues"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_13"
+        android:paddingBottom="@dimen/margin_13">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/problem_cue"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/issues_bottom"
+        android:weightSum="1"
+        android:paddingTop="@dimen/margin_10"
+        android:paddingBottom="@dimen/margin_10">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_5"
+            android:layout_weight="0.03"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/issues_submit_bg"
+            android:text="@string/message_client"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_15"
+            android:layout_weight="0.46"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="@dimen/margin_8"
+            android:paddingBottom="@dimen/margin_8"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_5"
+            android:layout_weight="0.02"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/issues_submit_bg"
+            android:text="@string/respond"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_15"
+            android:layout_weight="0.46"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="@dimen/margin_8"
+            android:paddingBottom="@dimen/margin_8"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_5"
+            android:layout_weight="0.03"/>
+
+    </LinearLayout>
+
+</LinearLayout>

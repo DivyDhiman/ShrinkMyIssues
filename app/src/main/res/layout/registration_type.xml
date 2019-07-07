@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin_25"
+        android:layout_marginStart="@dimen/margin_25"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="0.3"
+            android:background="@drawable/logo_splash_screen"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08"
+            android:gravity="center"
+            android:text="@string/select_type"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:text="@string/register_client"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <Button
+            android:id="@+id/client_type"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:text="@string/type_client"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:text="@string/shrink_your_issues"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:gravity="center"
+            android:text="@string/or"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:text="@string/register_pro"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <Button
+            android:id="@+id/pro_type"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:text="@string/type_pro"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:text="@string/shrink_other_issues"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/terms_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:text="@string/terms_conditions"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+
+    </LinearLayout>
+</RelativeLayout>
